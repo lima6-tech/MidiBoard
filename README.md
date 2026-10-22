@@ -17,3 +17,4 @@ Features hexagon shaped keys.
 | RotaryEncoder Alps EC11E-Switch Vertical H20mm |
 | Waveshare ESP32-S3-Zero | 1 |
 
+*Note that BOM total cost for each component because they have to be bought in batches
