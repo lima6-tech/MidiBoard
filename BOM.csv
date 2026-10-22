@@ -1,8 +1,11 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 PCB,1,jlcpcb,$8.40,$8.40,https://jlcpcb.com/
-LED SK6812MINI-E ReverseMount,3,,,,https://www.lcsc.com/product-detail/C5149201.html?s_z=n_q_C5149201&globalKeyword=C5149201
+LED SK6812MINI-E ReverseMount,3,LCSC,$0.081,$0.41,https://www.lcsc.com/product-detail/C5149201.html?s_z=n_q_C5149201&globalKeyword=C5149201
+Capacitive keys,3,LCSC,$0.0492,$0.49,https://www.lcsc.com/product-detail/C2932700.html?s_z=n_q_C2932700&globalKeyword=C2932700
 Potentiometer_Slider,2,,,,https://www.lcsc.com/product-detail/C17679167.html?s_z=n_q_C17679167&globalKeyword=C17679167
 SW_Push,3,,,,https://www.lcsc.com/product-detail/C400229.html?s_z=n_q_C400229&globalKeyword=C400229
 RotaryEncoder_Switch_MP,1,,,,https://www.lcsc.com/product-detail/C1322539.html?s_z=n_q_C1322539&globalKeyword=C1322539
 Waveshare ESP32-S3-Zero,1,,,,https://docs.waveshare.com/ESP32-S3-Zero
 Estimated total shipping,1,,,$0.00,
+
+Note that for many components they have to be bought in batches of at least 5
