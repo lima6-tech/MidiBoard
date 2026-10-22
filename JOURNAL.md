@@ -10,16 +10,21 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 3 | Tier 1 | 5.5h | 1 |
+| Week 3 | Tier 1 | 6h | 1 |
 
 ## Contents
 
-1. [2026-10-22 – Work session](#2026-10-22-work-session)
+1. [2026-10-22 – **Drew Silkscreen Art**](#2026-10-22-drew-silkscreen-art)
 
 ## Design
 
-### 2026-10-22 – Work session
+### 2026-10-22 – **Drew Silkscreen Art**
 
-**5.5h**
+**6h**
+
+**Drew Silkscreen Art**
+
+I decided to draw my own silkscreen art  for my PCB. Since I found it too hard to do so on a laptop, I ended up drawing a rough scribble  on a separate device before exporting it back to my laptop.
+I then had to import it into Inkscape in order to remove the background then convert it to a svg before I imported it into Kicad.
 
 [Timelapse](https://lookout.hackclub.com/api/media/ce1b83b7-3743-4859-a403-be2babca4b51/video.mp4)
