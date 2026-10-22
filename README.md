@@ -5,7 +5,7 @@ A custom midi PCB with touch capacity keys, switches, LEDs and more!
 ## Components
 
 | Component | Quantity |
-| --- | --- | --- |
+| --- | --- |
 | LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount | 3 |
 | CapacityKeys (Capacitive_keys) | 1 |
 | Potentiometer_Bourns_PTA1543_Single_Slide | 2 |
