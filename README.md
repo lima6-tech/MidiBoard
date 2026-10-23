@@ -19,7 +19,7 @@ Features hexagon shaped keys.
 *Note that BOM total cost for each component because they have to be bought in batches
 
 ## Firmware
-Done with Circuit python. At the present here is what the different components have been set to do:
+Done with Circuit python. The capacity keys play notes (A-G). At the present the different components have been set to do different note adjustment functions. I might later change the middle (2nd) key to change key layers. 
 
 Switches: 
 - Left: Raises the notes played by an octave
