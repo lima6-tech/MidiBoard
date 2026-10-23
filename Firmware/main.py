@@ -3,20 +3,25 @@ import analogio
 import touchio
 import usb_midi
 
+from kmk.kmk_keyboard import KMKKeyboard
+from kmk.modules.midi import Midi
+from kmk.keys import KC, make_key
+from kmk.modules.encoder import EncoderHandler
+from kmk.extensions.rgb import RGB, AnimationModes
+
 import adafruit_midi
 from adafruit_midi.control_change import ControlChange
 from adafruit_midi.note_off import NoteOff
 from adafruit_midi.note_on import NoteOn
 
-from kmk.kmk_keyboard import KMKKeyboard
-from kmk.keys import KC, make_key
-from kmk.modules.encoder import EncoderHandler
-from kmk.modules.midi import Midi
 
 # KEYBOARD SET UP
 
 keyboard = KMKKeyboard()
 
+# custom key handler set up:
+# key - key object
+# keyboard - represents KMKKeyboard instance
 def shift_octave_up(key, keyboard, *args):
     global current_octave
     if current_octave < MAX_OCTAVE:
@@ -39,7 +44,21 @@ keyboard.modules.append(midi)
 # out_channel=0  - set the output channel to 0 (MIDI channel 1)
 midi_device = adafruit_midi.MIDI(midi_out=usb_midi.ports[1], out_channel=0)
 
-#OCTAVE SHIFTING
+# LEDs
+
+rgb = RGB(
+    pixel_pin = board.IO5,  
+    num_pixels = 3,      # total # of LEDs
+    val_default = 80,    # default brightness
+    val_limit = 150       # max brightness
+    hue_default = 0,      # starting color
+    sat_default = 255,
+    animation_mode = AnimationModes.STATIC,
+)
+
+keyboard.extensions.append(rgb)
+
+# OCTAVE SHIFTING
 
 current_octave = 0
 MAX_OCTAVE = 36
