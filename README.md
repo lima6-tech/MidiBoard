@@ -11,7 +11,7 @@ A custom midi board PCB. Features hexagon shaped touch capacity keys, switches w
 | LED SK6812MINI-E | 3 |
 | Capacity Keys (Capacitive keys) | 1 |
 | Potentiometer Bourn Single_Slide | 2 |
-| Kailh Choc Low-Profile Switches | 3 |
+| Cherry MX Switches | 3 |
 | RotaryEncoder Alps EC11E-Switch Vertical H20mm | 1 |
 | Waveshare ESP32-S3-Zero | 1 |
 
