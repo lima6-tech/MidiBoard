@@ -3107,6 +3107,16 @@
 		)
 		(uuid "fc41e6e2-8aa0-402c-99aa-148c62ba8554")
 	)
+	(label "SLIDE1"
+		(at 102.87 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e49d6ba-a5ba-4642-b24d-953892ea3ba3")
+	)
 	(label "ENC1_A"
 		(at 69.85 62.23 0)
 		(effects
@@ -3177,6 +3187,16 @@
 		)
 		(uuid "540cbc58-30b9-401f-851b-803f4c839631")
 	)
+	(label "SLIDE2"
+		(at 102.87 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "573b18d7-5bdb-48e9-a9d9-5432a7aab9c1")
+	)
 	(label "TOUCH3"
 		(at 167.64 104.14 0)
 		(effects
@@ -3196,6 +3216,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ab8d4a0-9dcd-4eb0-9c5b-640be199b884")
+	)
+	(label "SWITCH1"
+		(at 102.87 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71772c21-487f-4400-96d7-7e44a50455aa")
 	)
 	(label "TOUCH5"
 		(at 149.86 102.87 0)
@@ -3267,7 +3297,7 @@
 		)
 		(uuid "9ee176b1-15c2-486d-948e-0a564f7618d2")
 	)
-	(label "SLIDE2"
+	(label "SWITCH2"
 		(at 102.87 95.25 0)
 		(effects
 			(font
@@ -3275,17 +3305,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "aefcd22d-02d6-474c-be88-d905daa3e1d4")
-	)
-	(label "SWITCH2"
-		(at 102.87 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4d6519e-51b6-4e51-9b6a-60f0e143d4d6")
+		(uuid "b7cb7ff4-7083-45b7-86fd-aea3f9c18a10")
 	)
 	(label "TOUCH4"
 		(at 149.86 105.41 0)
@@ -3346,26 +3366,6 @@
 			(justify left bottom)
 		)
 		(uuid "d7fc4211-2449-4641-b128-f5e9773c1fb4")
-	)
-	(label "SLIDE1"
-		(at 102.87 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d896c79d-530a-4955-bb4c-71865a2c5efe")
-	)
-	(label "SWITCH1"
-		(at 102.87 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc734b1b-90d5-4239-8ed3-e7346ab2ce0c")
 	)
 	(label "SLIDE1"
 		(at 125.73 60.96 0)
