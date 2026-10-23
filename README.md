@@ -2,9 +2,8 @@
 A custom midi PCB with touch capacity keys, switches, LEDs and more!
 Features hexagon shaped keys.
 
-<img width="778" height="480" alt="PCB_image" src="https://github.com/user-attachments/assets/969cbb6b-02cd-4e75-808c-7ffdc74097f1" />
-
-<img width="890" height="627" alt="Schematics_image" src="https://github.com/user-attachments/assets/377cafed-8fa4-4775-9d41-60c125c51573" />
+<img width="642" height="454" alt="Schematics_image" src="https://github.com/user-attachments/assets/58cdaeba-217b-4749-a955-6c81de007bdb" />
+<img width="528" height="394" alt="PCB_image" src="https://github.com/user-attachments/assets/0505e24f-da00-4ff2-be06-fff81bd5847c" />
 
 ## Components
 
