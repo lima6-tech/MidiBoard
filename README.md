@@ -1,6 +1,5 @@
 # MidiBoard
-A custom midi PCB with touch capacity keys, switches, LEDs and more!
-Features hexagon shaped keys.
+A custom midi board PCB. Features hexagon shaped touch capacity keys, switches with LEDs and rotary encoders + potentiometer sliders. 
 
 <img width="642" height="454" alt="Schematics_image" src="https://github.com/user-attachments/assets/58cdaeba-217b-4749-a955-6c81de007bdb" />
 <img width="528" height="394" alt="PCB_image" src="https://github.com/user-attachments/assets/0505e24f-da00-4ff2-be06-fff81bd5847c" />
@@ -15,6 +14,7 @@ Features hexagon shaped keys.
 | Kailh Choc Low-Profile Switches | 3 |
 | RotaryEncoder Alps EC11E-Switch Vertical H20mm | 1 |
 | Waveshare ESP32-S3-Zero | 1 |
+
 
 ## Firmware
 Done with Circuit python. The capacity keys play notes (A-G). The different midi board components have been set to do different note adjustment functions (controlling midi cc values). I might later change the middle (2nd) key to change key layers. 
