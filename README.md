@@ -16,18 +16,14 @@ Features hexagon shaped keys.
 | RotaryEncoder Alps EC11E-Switch Vertical H20mm | 1 |
 | Waveshare ESP32-S3-Zero | 1 |
 
-*Note that BOM total cost for each component because they have to be bought in batches
-
 ## Firmware
-Done with Circuit python. The capacity keys play notes (A-G). At the present the different components have been set to do different note adjustment functions. I might later change the middle (2nd) key to change key layers. 
+Done with Circuit python. The capacity keys play notes (A-G). The different midi board components have been set to do different note adjustment functions (controlling midi cc values). I might later change the middle (2nd) key to change key layers. 
 
-Switches: 
-- Left: Raises the notes played by an octave
-- Center: pause / play (I plan to change this later)
-- Right: Lowers the notes played by an octave
-
-Rotary Encoder: volume
-
-Sliders:
-- Slider 1: modulation
-- Slider 2: resonance
+| Component | Function |
+| --- | --- |
+| Left switch | Raises the notes played by an octave |
+| Center switch | pause / play |
+| Right switch | Lowers the notes played by an octave |
+| Rotary Encoder | controls volume |
+| Slider 1 | note modulation |
+| Slider  | note resonance
