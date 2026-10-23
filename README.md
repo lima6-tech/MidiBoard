@@ -17,3 +17,17 @@ Features hexagon shaped keys.
 | Waveshare ESP32-S3-Zero | 1 |
 
 *Note that BOM total cost for each component because they have to be bought in batches
+
+## Firmware
+Done with Circuit python. At the present here is what the different components have been set to do:
+
+Switches: 
+- Left: Raises the notes played by an octave
+- Center: pause / play (I plan to change this later)
+- Right: Lowers the notes played by an octave
+
+Rotary Encoder: volume
+
+Sliders:
+- Slider 1: modulation
+- Slider 2: resonance
