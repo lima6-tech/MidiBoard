@@ -10,13 +10,13 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 3 | Tier 1 | 11.05h | 3 |
+| Week 3 | Tier 1 | 11.25h | 3 |
 
 ## Contents
 
 1. [2026-10-22 – **Drew Silkscreen Art**](#2026-10-22-drew-silkscreen-art)
 2. [2026-10-23 – Work session](#2026-10-23-work-session)
-3. [2026-10-23 – Work session](#2026-10-23-work-session)
+3. [2026-10-23 – **Added firmware for LEDs**](#2026-10-23-added-firmware-for-leds)
 
 ## Design
 
@@ -37,8 +37,12 @@ I then had to import it into Inkscape in order to remove the background then con
 
 [Timelapse](https://lookout.hackclub.com/api/media/cb588a84-55b2-4a17-a0ac-88a8a23bd379/video.mp4)
 
-### 2026-10-23 – Work session
+### 2026-10-23 – **Added firmware for LEDs**
 
-**3.12h**
+**3.32h**
+
+**Added firmware for LEDs**
+
+Updated the firmware to support the LEDs by adding the KMK extension. The LEDs now light up white when connected. I might later assign some keys to adjust the LED values, but I currently don't have any keys left to assign this to.
 
 [Timelapse](https://lookout.hackclub.com/api/media/6bc692c6-7ada-4e44-9482-65aa1a85159e/video.mp4)
