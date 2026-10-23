@@ -12,8 +12,8 @@ Features hexagon shaped keys.
 | LED SK6812MINI-E | 3 |
 | Capacity Keys (Capacitive keys) | 1 |
 | Potentiometer Bourn Single_Slide | 2 |
-| Kailh Choc Low-Profile Switches | 3 | C400229 |
-| RotaryEncoder Alps EC11E-Switch Vertical H20mm |
+| Kailh Choc Low-Profile Switches | 3 |
+| RotaryEncoder Alps EC11E-Switch Vertical H20mm | 1 |
 | Waveshare ESP32-S3-Zero | 1 |
 
 *Note that BOM total cost for each component because they have to be bought in batches
